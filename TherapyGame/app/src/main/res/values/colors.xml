@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#10133A</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorSplash">#10133A</color>
+    <color name="colorJugar">#FFCC00</color>
+    <color name="colorfondo">#333333</color>
+    <color name="colorIntroduccion">#871616</color>
+    <color name="colorAjustes">#26CA69</color>
+    <color name="colorRanking">#03A9F5</color>
+    <color name="colorInstrucciones">#FF9700</color>
+    <color name="colorNickname">#CC33CC</color>
+    <color name="colorInformacion">#F44236</color>
+    <color name="colorFinal">#adba49</color>
+
+    <color name="colorBlancoTrasparente">#cccccc</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorTrasparente">#000000</color>
+    <color name="colorAmarrillo">#fecd02</color>
+    <color name="colorCeleste">#00BCD4</color>
+    <color name="colorRojo">#F44337</color>
+    <color name="colorAzul">#162FBF</color>
+    <color name="colorVerde">#4CAF50</color>
+    <color name="colorVerdeLima">#4DD30F</color>
+    <color name="colorNaranja">#FF9800</color>
+    <color name="colorLila">#cc35cc</color>
+    <color name="colorMarron">#894802</color>
+    <color name="colorGranada">#ae0101</color>
+    <color name="colorTurquesa">#41bfbf</color>
+    <color name="colorVinoTinto">#89024c</color>
+    <color name="colorFucsia">#ff028d</color>
+    <color name="colorAzulOscuro">#272e51</color>
+    <color name="colorTeja">#c35c04</color>
+    <color name="colorAbeto">#0b7855</color>
+    <color name="colorGris">#617e8d</color>
+    <color name="colorNegro">#000000</color>
+    <color name="colorUsuario">#9C27B0</color>
+</resources>

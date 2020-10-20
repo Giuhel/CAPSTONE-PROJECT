@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="JUEGO">
+        <ListPreference
+            android:key="modojuego"
+            android:title="Modo Juego"
+            android:summary="Elije la modalidad de juego"
+            android:entries="@array/modo_juego"
+            android:entryValues="@array/modo_juego"
+            android:icon="@mipmap/ic_modo" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="PERSONALIZAR">
+
+        <ListPreference
+            android:key="tiempoJuego"
+            android:title="Duracion Juego"
+            android:summary="Seleccione la cantidad de minutos que durará el juefo"
+            android:entries="@array/duracion_juego"
+            android:entryValues="@array/duracion_juego"
+            android:icon="@mipmap/ic_duracion"/>
+
+        <ListPreference
+            android:key="duracionPalabra"
+            android:title="Duracion Palabra"
+            android:summary="Selecciones la cantidad de segundos que una palabra sera mostrada"
+            android:entries="@array/duracion_palabra"
+            android:entryValues="@array/duracion_palabra"
+            android:icon="@mipmap/ic_duracionpalabre"/>
+
+        <EditTextPreference
+            android:key="NumeroDeIntentos"
+            android:title="Numero De Intentos"
+            android:summary="Seleccione la cantidad de intentos por juego"
+            android:maxLength="5"
+            android:inputType="number"
+            android:selectable="true"
+            android:singleLine="true"
+            android:icon="@mipmap/ic_intentos"/>
+
+        <PreferenceScreen
+            android:title="Cambiar Tema"
+            android:icon="@mipmap/ic_ajustes"
+            android:summary="Perzonaliza los colores y el diseño de la Aplicacion">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.e.therapygame"
+                android:targetClass="com.e.therapygame.actividades.AjustesTemaActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="INFORMACION">
+
+        <PreferenceScreen
+            android:title="Acerca De..."
+            android:icon="@mipmap/ic_acercade"
+            android:summary="Conoce mas sobre el Desarrollador">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetPackage="com.e.therapygame"
+                android:targetClass="com.e.therapygame.actividades.ContendorInstruccionesActivity"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

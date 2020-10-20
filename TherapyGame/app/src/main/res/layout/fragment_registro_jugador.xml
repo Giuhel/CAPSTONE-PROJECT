@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RegistroJugadorFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/idLayoutFondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="8dp">
+
+            <ImageView
+                android:id="@+id/im"
+                android:layout_width="60dp"
+                android:layout_height="49dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="52dp"
+                android:layout_marginLeft="52dp"
+                android:src="@drawable/logo_mini2"
+                />
+
+            <ImageButton
+                android:id="@+id/btnIcoAtras"
+                android:layout_width="60dp"
+                android:layout_height="49dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_atras"/>
+
+         <ImageButton
+             android:id="@+id/btnAyuda"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="10dp"
+             android:background="@android:color/transparent"
+             android:src="@drawable/ic_ayuda"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro Jugador"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5sp"/>
+
+        <EditText
+            android:id="@+id/campoNickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NickName"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genero"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5sp"/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Masculino"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/radioF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Femenino"
+                android:layout_weight="1"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione un Avatar"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerAvatarsId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFabRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        android:src="@mipmap/ic_confirm"/>
+
+
+
+</RelativeLayout>

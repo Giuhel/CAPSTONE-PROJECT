@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Therapy Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jugar">Jugar</string>
+    <string name="na">{ NA }</string>
+    <string name="todo">TODO</string>
+    <string name="todos">TODOS</string>
+    <string name="title_activity_contenedor_instrucciones">ContenedorInstruccionesActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_contenedor_intrucciones">ContenedorIntruccionesActivity</string>
+
+
+    <string name="texto_instruccion_final">Y listo ahora puedes empezar a jugar presiona en iniciar y prueba tu nivel de concentración</string>
+    <string name="texto_instrucciones_informacion"></string>
+    <string name="texto_instruccion_user">El nombre de usuario es fundamental si quieres probar tu concentracion, ya que este nos
+                                          permitira saber que usuario ha jugado y cual es su posición en el ranking
+                                          presiona esta opción si quieres ingresar un nuevo jugador</string>
+    <string name="texto_instrucciones_instrucciones">¿Aún no tienes claro como funciona la app? No te preocupes, desde aquí
+                                                     podras regresar a consultar las instrucciones del juego</string>
+    <string name="texto_instrucciones_Rankig">Consulta el ranking de puntos obtenidos en cada partida, a medida
+                                              que vayas jugando mejoraras tu puntaje</string>
+    <string name="texto_instrucciones_ajustes">Ajusta el modo de juego puedes definir jugar por tiempo, por palabras, o
+                                              seleccionar el nivel inicial entre otros elementos</string>
+    <string name="texto_instrucciones_play">Desde aquí podras medir tu nivel de concentración probando un test, en el que
+                                            deberas iniciar si el nombre del color corresponde al color de la palabra</string>
+    <string name="texto_instrucciones_introduccion">El juego Permite medir la capacidad de concentracion del niño en el tiempo de
+                                                    reaccion cuando se presenta el nombre de un color escrito o pintado con un color
+                                                    que no corresponde al mismo </string>
+    <string name="tittle_activity_ajustes_tema">AjustesTemaActivity</string>
+    <string name="info_acerca_de">Este juego esta hecho para mejorar la concentracion de los niños con TDAH</string>
+    <string name="title_activity_contendor_instrucciones">ContendorInstruccionesActivity</string>
+
+
+</resources>
